@@ -1,0 +1,81 @@
+body {
+    background-color: antiquewhite;
+}
+
+.parallax {
+    background-image: url("hero.jpg");
+      min-height: 100vh; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.container {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+li  {
+    display: inline;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+}
+.nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+
+    position: fixed;
+    top: 10px;
+    /* left: 0; */
+    /* z-index: 999; */
+    width: 80%;
+    height: 23px;
+}
+
+.nav-item-1, .nav-item-2, .nav-item-3, .nav-item-4, .nav-item-5 {
+    border: 2px solid #04AA6D;
+    background-color: #fffffa;
+    padding: 10px 50px;
+    text-align: center;
+    flex: 1;
+}
+
+.nav-item-1:hover, .nav-item-2:hover, .nav-item-3:hover, .nav-item-4:hover, .nav-item-5:hover {
+    border: 2px solid #fffffa;
+    background-color: #04AA6D;
+    color: #fffffa;
+}
+
+#events {
+    display: flex;
+    flex-direction: column;
+}
+
+.resources {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: inherit;
+}
+
+.resource {
+    color: #04AA6D;
+    font-size: 20px;
+    margin: 50px;
+}
+
+table {
+    /* text-align: left; */
+}
+
+.newsletter > div {
+    margin-bottom: 20px;
+}

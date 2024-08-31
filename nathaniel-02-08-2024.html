@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, user-scalable=0'>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Developer's Hangout – A community where newbies learn to code and grow together.">
+    <meta name="author" content="Developer's Hangout Team">
+    <meta name="keywords" content="coding,programming,learn to code,web development,data science,machine learning,developer community,developer events,coding resources,beginner coding,developer's hangout,hangout">
+    <title>Developer's Hangout</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="parallax">
+        
+    </div>
+    <!-- Main header of the page -->
+    <div class="container">
+        <header>
+            <nav>
+    
+                <ul class="nav">
+                    <li><a class="nav-item-1" href="#home">Home</a></li>
+                    <li><a class="nav-item-2" href="#about">About Us</a></li>
+                    <li><a class="nav-item-3" href="#events">Events</a></li>
+                    <li><a class="nav-item-4" href="#resources">Resources</a></li>
+                    <li><a class="nav-item-5" href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+    
+        <!-- Main content area -->
+        <main>
+            
+            <!-- Section: Home -->
+            <section id="home">
+                <h1>Welcome to Developer's Hangout</h1>
+                <p>Your community to learn and grow as a developer.</p>
+            </section>
+    
+            <!-- Section: About Us -->
+            <section id="about">
+                <h2>About Us</h2>
+                <p>Developer's Hangout is a community where beginners can learn to code, share knowledge, and grow together.</p>
+            </section>
+    
+            <!-- Section: Events -->
+            <section id="events">
+                <h2>Upcoming Events</h2>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Event</th>
+                            <th>Date</th>
+                            <th>Location</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Beginner's Bootcamp</td>
+                            <td>August 15, 2024</td>
+                            <td>Online</td>
+                        </tr>
+                        <tr>
+                            <td>Hackathon</td>
+                            <td>September 1, 2024</td>
+                            <td>San Francisco, CA</td>
+                        </tr>
+                        <tr>
+                            <td>Web Development Workshop</td>
+                            <td>October 10, 2024</td>
+                            <td>New York, NY</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+    
+            <!-- Section: Resources -->
+            <section id="resources">
+                <h2>Learning Resources</h2>
+                <marquee behavior="scroll" direction="left">
+                    <ul>
+                    <li><a class="resource" href="https://www.codecademy.com/">Codecademy</a></li>
+                    <li><a class="resource" href="https://www.freecodecamp.org/">freeCodeCamp</a></li>
+                    <li><a class="resource" href="https://www.udemy.com/">Udemy</a></li>
+                </ul>
+                </marquee>
+                
+            </section>
+    
+            <!-- Section: Newsletter Signup -->
+            <section id="signup">
+                <h2>Sign Up for Our Newsletter</h2>
+                <form class='newsletter' action="/submit-form" method="POST">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    
+    
+                    <div>
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" required>  
+                    </div>
+                    
+    
+                    <div>
+                        <label for="interests">Interests:</label>
+                        <select id="interests" name="interests">
+                            <option value="webdev">Web Development</option>
+                            <option value="datasci">Data Science</option>
+                            <option value="ml">Machine Learning</option>
+                        </select> 
+                    </div>
+                    
+    
+                    <div>
+                        <label for="message">Message:</label>
+                        <textarea id="message" name="message"></textarea> 
+                    </div>
+                    
+    
+                    <button type="submit">Sign Up</button>
+                </form>
+            </section>
+        </main>
+    
+        <!-- Footer of the page -->
+        <footer>
+            <!-- Section: Contact -->
+            <section id="contact">
+                <h2>Contact Us</h2>
+                <address>
+                    <p>Email: <a href="mailto:info@developershangout.com">info@developershangout.com</a></p>
+                    <p>Phone: +123-456-7890</p>
+                </address>
+            </section>
+            <p>&copy; 2024 Developer's Hangout. All rights reserved.</p>
+        </footer>
+    </div>
+</body>
+</html>
